@@ -1,4 +1,6 @@
 window:
+  opacity: 0.7
+
   padding:
     x: 12
     y: 12
@@ -10,29 +12,34 @@ scrolling:
   history: 2000
   multiplier: 2
 
-background_opacity: 0.5
-
 font:
   normal:
-    family: MonoLisa
+    family: VictorMono Nerd Font
 
   bold:
-    family: MonoLisa
+    family: VictorMono Nerd Font
 
   italic:
-    family: MonoLisa
+    family: VictorMono Nerd Font
 
   bold_italic:
-    family: MonoLisa
+    family: VictorMono Nerd Font
+
   size: 12
-
 draw_bold_text_with_bright_colors: true
-
+# Cyberpunk-Neon colours
 colors:
   # Default colours
   primary:
     background: "0x000b1e"
     foreground: "0x0abdc6"
+
+  # Colors that should be used to draw the terminal cursor. If these are unset,
+  # the cursor colour will be the inverse of the cell colour.
+  # cursor:
+  #   text: '0x2e2e2d'
+  #   # text: '0x000000'
+  #   cursor: '0xffffff'
 
   # Normal colors
   normal:
@@ -66,8 +73,3 @@ colors:
     magenta: "0x711c91"
     cyan: "0x0abdc6"
     white: "0xd7d7d5"
-
-cursor:
-  style:
-    shape: Block
-    blinking: Off
