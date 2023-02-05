@@ -1,0 +1,17 @@
+{
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "json.schemas": [],
+  "editor.fontFamily": "VictorMono Nerd Font",
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 12,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Abyss",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true
+}
